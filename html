@@ -1,0 +1,306 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Digital Marketing Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #0b0f1a;
+  color: #fff;
+  line-height: 1.6;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: rgba(11,15,26,0.9);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 20px;
+  color: #00e5ff;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00e5ff;
+}.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background: radial-gradient(circle at top, #13203a, #0b0f1a);
+}
+
+.hero h2 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  max-width: 600px;
+  opacity: 0.8;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background: #00e5ff;
+  color: #000;
+}
+
+.btn-outline {
+  border: 1px solid #00e5ff;
+  background: transparent;
+  color: #00e5ff;
+}
+
+section {
+  padding: 60px 10%;
+}
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background: radial-gradient(circle at top, #13203a, #0b0f1a);
+}
+
+.hero h2 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  max-width: 600px;
+  opacity: 0.8;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background: #00e5ff;
+  color: #000;
+}
+
+.btn-outline {
+  border: 1px solid #00e5ff;
+  background: transparent;
+  color: #00e5ff;
+}
+
+section {
+  padding: 60px 10%;
+}
+h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #00e5ff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #121a2b;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.stat {
+  text-align: center;
+  margin: 20px;
+}
+
+.stat h2 {
+  color: #00e5ff;
+  font-size: 32px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0a0e18;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 120px;
+}
+form button {
+  background: #00e5ff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Digital Marketer</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#stats">Results</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Driving Growth Through Digital Marketing</h2>
+  <p>I help businesses grow with SEO, PPC, social media marketing, and conversion optimization strategies that deliver real results.</p>
+  <div class="buttons">
+    <button class="btn btn-primary">View Portfolio</button>
+    <button class="btn btn-outline">Contact Me</button>
+  </div>
+</section>
+
+<section id="about">
+  <h3>About Me</h3>
+  <p>
+    I am a Digital Marketing Specialist with expertise in building data-driven marketing campaigns that increase traffic,
+    generate leads, and maximize ROI. I work with startups and established brands to scale their online presence.
+  </p>
+</section>
+
+<section id="services">
+  <h3>Services</h3>
+  <div class="grid">
+    <div class="card">SEO Optimization</div>
+    <div class="card">Google Ads & PPC</div>
+    <div class="card">Social Media Marketing</div>
+    <div class="card">Content Marketing</div>
+    <div class="card">Email Marketing</div>
+    <div class="card">Marketing Analytics</div>
+  </div>
+</section>
+<section id="portfolio">
+  <h3>Portfolio</h3>
+  <div class="grid">
+    <div class="card">
+      <h4>E-commerce Brand</h4>
+      <p>Increased organic traffic by 250% using SEO strategy.</p>
+    </div>
+    <div class="card">
+      <h4>Tech Startup</h4>
+      <p>Generated 5x ROAS through Google Ads campaigns.</p>
+    </div>
+    <div class="card">
+      <h4>Fashion Brand</h4>
+      <p>Boosted social engagement by 320% in 3 months.</p>
+    </div>
+  </div>
+</section>
+
+<section id="stats">
+  <h3>Results</h3>
+  <div class="stats">
+    <div class="stat">
+      <h2>120+</h2>
+      <p>Campaigns</p>
+    </div>
+    <div class="stat">
+      <h2>5M+</h2>
+      <p>Leads Generated</p>
+    </div>
+    <div class="stat">
+      <h2>8x</h2>
+      <p>Average ROI</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h3>Contact Me</h3>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Digital Marketing Portfolio. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
